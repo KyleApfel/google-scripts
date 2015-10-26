@@ -73,7 +73,7 @@ def userLoop():
   x = 1
   while x < len(users)-1:
     if "True" in users[x]:
-      users.remove(users[x])
+      print users[x]
       x += 1
     else:
       users[x] = users[x][:-7]
