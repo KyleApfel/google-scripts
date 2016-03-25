@@ -4,7 +4,7 @@ import sys
 import glob
 
 # GAM Home Directory
-GAM = "/home/tron/GAM/gam.py"
+GAM = "location/here/gam.py"
 
 # Getting List of Users
 output = subprocess.check_output(GAM + " print users suspended", shell=True)
